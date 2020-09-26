@@ -1,0 +1,74 @@
+html {
+    font-family: 'Jua', sans-serif;
+    font-size: 14px;
+}
+
+body {
+    background-color: #88B04B;
+}
+
+nav img {
+    width: 50px;
+    padding: 15px;
+}
+
+.contents {
+    padding-top: 50px;
+    padding-left: 15px;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.card {
+    display: inline-block;
+    margin: 5px;
+    width: 80px;
+    height: 110px;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+    perspective: 140px;
+}
+
+.card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.card.flipped .card-inner {
+    transform: rotateY(180deg);
+}
+
+.card-front, .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.card-front {
+    background-image: url('../img/back.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.card-back {
+    background-color: ivory;
+    transform: rotateY(180deg);
+}
+
+@media (min-width: 1200px) {
+    .contents {
+        width: 40vw;
+    }
+    .card {
+        width: 120px;
+        height: 165px;
+    }
+}

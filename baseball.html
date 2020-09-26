@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="modal.css" />
+    <link rel="stylesheet" href="css/baseball.css" />
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Jua&display=swap" rel="stylesheet">
+    <title>baseball_game</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <a href="index.html"><img src="home.png"></a>
+        </nav>
+        <div class="contents_box">
+            <h1>숫자야구</h1>
+            <div class="first_word">
+                <h2 id="js_h2">홈런에 도전해보세요!</h2>
+            </div>
+            <div class="desc">
+                <p id="red">남은 기회:</p>
+            </div>
+            <form>
+                <input id="input" type="text" placeholder="숫자입력" maxlength="4"/>
+                <button id="btn">입력</button>
+            </form>
+        </div>
+    </div>
+    <div class="modal">
+        <div class="modal_overlay"></div>
+        <div class="modal_content">
+            <h1>⚾ 야구게임 설명 ⚾</h1>
+            <h2>1~9까지의 랜덤숫자 4개를 맞추는 게임</h2>
+            <h3>스트라이크 👉 정답과 입력숫자의 위치가 같을 때</h3>
+            <h3>볼 👉 위치는 같지않지만 정답의 숫자가 있을 때</h3>
+            <p>ex) 정답:3690 입력:3027 => 1스트라이크 1볼</p>
+            <button>❌</button>
+        </div>
+    </div>
+<script>
+    const modal = document.querySelector(".modal");
+    const overlay = modal.querySelector(".modal_overlay");
+    const closeBtn = modal.querySelector("button");
+    const closeModal = () => {
+        modal.classList.add("hidden");
+    }
+    overlay.addEventListener("click", closeModal);
+    closeBtn.addEventListener("click", closeModal);
+</script>      
+<script src="js/baseball.js"></script>
+</body>
+</html>
