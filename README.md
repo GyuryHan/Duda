@@ -6,6 +6,8 @@
   
 ![main](https://user-images.githubusercontent.com/66048317/94376183-f2104d00-0153-11eb-9e38-66419ba4c871.jpg)
 
+</p>
+
 <h2 align="center"> main 화면입니다.
   
 ![base](https://user-images.githubusercontent.com/66048317/94376195-f89ec480-0153-11eb-9d89-28541d06336f.jpg)
