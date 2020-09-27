@@ -4,11 +4,15 @@
 <hr>
 
 <h3 align="center"> main 화면입니다.<br>
+  
 ![main](https://user-images.githubusercontent.com/66048317/94376183-f2104d00-0153-11eb-9e38-66419ba4c871.jpg)
 
 <h3 align="center"> 끝말잇기 게임입니다. <br>
+  
 ![word](https://user-images.githubusercontent.com/66048317/94376188-f63c6a80-0153-11eb-83c3-ce34be60229d.jpg)
+
 <h3 align="center"> 정답을 입력했을 경우 정답 alert창이, 그렇지 않을 경우엔 오답 창이 뜹니다. <br>
+  
 ![word2](https://user-images.githubusercontent.com/66048317/94376189-f76d9780-0153-11eb-9443-308c280d247e.jpg)
 
 ![base2](https://user-images.githubusercontent.com/66048317/94376186-f5a3d400-0153-11eb-99b2-eb5c90c6f28e.jpg)
