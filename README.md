@@ -14,7 +14,7 @@
 ![base2](https://user-images.githubusercontent.com/66048317/94376186-f5a3d400-0153-11eb-99b2-eb5c90c6f28e.jpg)
 
 
-<h2 align="center"> 반응속도를 테스트하는 게임입니다. 순발력 강화에 도움이 됩니다.
+<h2 align="center"> 반응속도를 테스트하는 게임입니다. 
 
 ![bell](https://user-images.githubusercontent.com/66048317/94376198-fa688800-0153-11eb-95e4-6b92aabe4c12.jpg)
   
