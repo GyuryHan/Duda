@@ -3,7 +3,7 @@
 실제로 녹색은 치매예방에 좋은 색이라고 알려져 있어 녹색위주로 UI를 구성하였습니다.
 <hr>
 
-<h3 align="center"> main 화면입니다.<br>
+<h2 align="center"> main 화면입니다.<br>
   
 ![main](https://user-images.githubusercontent.com/66048317/94376183-f2104d00-0153-11eb-9e38-66419ba4c871.jpg)
 
