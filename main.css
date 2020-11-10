@@ -6,6 +6,8 @@ html {
 body, .container, .contents_box {
     height: 100%;
     margin: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 a {
@@ -26,7 +28,7 @@ a {
     list-style: none;
     /* flex-basis: 20%; */
     flex-grow: 1;
-    padding: 50px;
+    padding: 50px 40px 20px 30px;
     padding-left: 110px;
     font-size: 2rem;
     letter-spacing: 1px;
