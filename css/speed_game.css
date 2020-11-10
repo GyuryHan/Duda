@@ -5,6 +5,7 @@ html {
 
 body {
     background-color: #88B04B;
+    overflow-x: hidden;
 }
 
 nav img {
@@ -18,22 +19,33 @@ form button {
     font-family: 'Do Hyeon', sans-serif;
 }
 
-.contents_box {
-    background-color: #F4F5F0;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
-    margin: 100px auto;
-    width: 40%;
-    height: 60vh;
-    text-align: center;
+.container {
+    height: 100%;
 }
 
-.contents_box h1 {
-    color: #88B04B;
-    padding-left: 0.8rem;
-    letter-spacing: 0.8rem;
-    font-size: 3vw;
-    padding-top: 25px;
+.space {
+    display: flex;
+    justify-content: center;
+}
+
+.space img {
+    width: 30vw;
+    margin-top: -70px;
+    z-index: 2;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.contents_box {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
 }
 
 .contents_box h2 {
@@ -41,29 +53,37 @@ form button {
 }
 
 .content {
-    background-image: url('../img/bell.png');
+    background-image: url('../img/ufo.png');
     background-size: cover;
-    margin: 0 auto;
-    width: 200px;
-    height: 200px;
+    margin: 10px auto;
+    width: 150px;
+    height: 150px;
     cursor: pointer;
 }
 .start {
-    background-image: url('../img/bell2.png');
+    background-image: url('../img/rocket.png');
     background-size: cover;
-    margin: 0 auto;
-    width: 200px;
-    height: 200px;
+    margin: 10px auto;
+    width: 150px;
+    height: 150px;
+}
+
+.rocket {
+    margin: 10px auto;
+    width: 150px;
+    height: 150px;
+    display: none;
+    z-index: 1;
+}
+
+.fly {
+    display: block;
 }
 
 @media (max-width: 768px) {
-    .contents_box {
-        width: 80%;
-        height: 60vh;
-    }
-    
-    .contents_box h1 {
-        font-size: 7vw;
+    .space img {
+        width: 60vw;
+        height: 40vh;
     }
 
 }
